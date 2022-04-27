@@ -42,7 +42,7 @@ class DHT11:
         self.__send_and_sleep(gpio.LOW, 0.02)
 
         # change to input using pull up
-        #gpio.setcfg(self.__pin, gpio.INPUT, gpio.PULLUP)
+        # gpio.setcfg(self.__pin, gpio.INPUT, gpio.PULLUP)
 	gpio.setcfg(self.__pin, gpio.INPUT)
 	gpio.pullup(self.__pin, gpio.PULLUP)
 
