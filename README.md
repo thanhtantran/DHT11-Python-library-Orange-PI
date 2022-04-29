@@ -1,6 +1,13 @@
 DHT11 Python library
 This simple class can be used for reading temperature and humidity values from DHT11 sensor on Orange PI.
 
+To run it you must install the orange pi python gpio from here https://github.com/thanhtantran/orangepi_python_gpio
+
+    apt-get install build-essential python3-dev python3-pip
+    git clone https://github.com/thanhtantran/orangepi_python_gpio
+    cd orangepi_python_gpio
+    python3 setup.py install 
+
 # Usage
 
 Instantiate the DHT11 class with the pin number as constructor parameter.
